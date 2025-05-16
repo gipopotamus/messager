@@ -20,7 +20,7 @@ docker compose build
 docker compose up -d
 
 # Сгенерировать тестовые данные
-docker compose exec api python src/scripts/create_test_data.py
+docker compose exec api python -m src.scripts.create_test_data
 
 ```
 ## Пример запроса
